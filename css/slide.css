@@ -1,0 +1,39 @@
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+.track {
+    display: inline-flex;
+    height: 100%;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  
+  .nav button {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #0078A5;
+    cursor: pointer;
+  }
+  .nav .prev {
+    left: -70px;
+    display: none;
+  }
+  .nav .prev.show {
+    display: block;
+  }
+  .nav .next {
+    right: -70px;
+  }
+  .nav .next.hide {
+    display: none;
+  }
