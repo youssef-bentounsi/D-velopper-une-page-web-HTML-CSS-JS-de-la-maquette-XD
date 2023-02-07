@@ -63,6 +63,9 @@ header .head input[type=text]{
 header .head input::placeholder{
     opacity: 50%;
 }
+header  .icons a{
+    color: black;
+}
 header  .icons i{
     margin-left: 10px;
     font-size: 1rem;
