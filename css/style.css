@@ -90,6 +90,9 @@ header  .icons .cart-shopping::before{
 }
 
 /* nav */
+header .navbar{
+    padding-bottom: 0px;
+}
 header nav .logo img{
     width: 100px;
 }
@@ -142,7 +145,7 @@ header nav ul li a:hover{
 
 /* start landing */
 .landing-page{
-    margin-top: 195px;
+    margin-top: 185px;
 }
 @media (max-width: 1200px){
    
