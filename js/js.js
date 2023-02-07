@@ -2,17 +2,12 @@
 
     // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
 window.onscroll = function() {scrollFunction()};
-// window.onresize = function() {resize()  }
-// function resize()
-// {
-//   if (window.innerWidth<1200) {
-//      document.getElementById("top-nav").classList.add('d-none');
-//   }
-//   else
-//   {
-//     document.getElementById("top-nav").classList.remove('d-none');
-//   }
-//}
+window.onresize = function() {resize()  }
+
+if (window.innerWidth<992) {
+    document.getElementById("head").classList.add('d-none');
+}
+
 
 function scrollFunction()
 {
