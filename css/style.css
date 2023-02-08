@@ -532,6 +532,7 @@ header nav ul li a:hover{
     color: #0078A5;
     background-image: url("../imgs/Groupe169.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .contact-nous h1{
     font-weight: bold;
