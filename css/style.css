@@ -261,8 +261,9 @@ header nav ul li a:hover{
     height: 381px; 
     text-align: center;
     margin: 0 30px;
+    position: relative;
     overflow: hidden;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
 }
 .best-seller .box img{
     
@@ -326,6 +327,9 @@ header nav ul li a:hover{
 }
 .nos-conseils .carousel-indicators li{
     border: 1px solid #0078A5;
+}
+.nos-conseils .carousel-item{
+    transition: transform .1s
 }
 .nos-conseils .angle{
     background-color: #0078A5;
@@ -527,6 +531,7 @@ header nav ul li a:hover{
     height: 200px;
     color: #0078A5;
     background-image: url("../imgs/Groupe169.png");
+    background-repeat: no-repeat;
 }
 .contact-nous h1{
     font-weight: bold;
